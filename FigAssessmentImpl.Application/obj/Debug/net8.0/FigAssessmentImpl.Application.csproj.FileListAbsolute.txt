@@ -1,0 +1,15 @@
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\bin\Debug\net8.0\FigAssessmentImpl.Application.deps.json
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\bin\Debug\net8.0\FigAssessmentImpl.Application.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\bin\Debug\net8.0\FigAssessmentImpl.Application.pdb
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\bin\Debug\net8.0\FigAssessmentImpl.Domain.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\bin\Debug\net8.0\FigAssessmentImpl.Domain.pdb
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\FigAssessmentImpl.Application.csproj.AssemblyReference.cache
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\FigAssessmentImpl.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\FigAssessmentImpl.Application.AssemblyInfoInputs.cache
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\FigAssessmentImpl.Application.AssemblyInfo.cs
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\FigAssessmentImpl.Application.csproj.CoreCompileInputs.cache
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\FigAsses.1F660EA7.Up2Date
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\FigAssessmentImpl.Application.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\refint\FigAssessmentImpl.Application.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\FigAssessmentImpl.Application.pdb
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\ref\FigAssessmentImpl.Application.dll

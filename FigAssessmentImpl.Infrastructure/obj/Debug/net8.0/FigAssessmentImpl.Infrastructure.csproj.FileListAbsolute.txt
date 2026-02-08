@@ -1,0 +1,17 @@
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\bin\Debug\net8.0\FigAssessmentImpl.Infrastructure.deps.json
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\bin\Debug\net8.0\FigAssessmentImpl.Infrastructure.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\bin\Debug\net8.0\FigAssessmentImpl.Infrastructure.pdb
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\bin\Debug\net8.0\FigAssessmentImpl.Application.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\bin\Debug\net8.0\FigAssessmentImpl.Domain.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\bin\Debug\net8.0\FigAssessmentImpl.Application.pdb
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\bin\Debug\net8.0\FigAssessmentImpl.Domain.pdb
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\FigAssessmentImpl.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\FigAssessmentImpl.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\FigAssessmentImpl.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\FigAssessmentImpl.Infrastructure.AssemblyInfo.cs
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\FigAssessmentImpl.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\FigAsses.EBC618C2.Up2Date
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\FigAssessmentImpl.Infrastructure.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\refint\FigAssessmentImpl.Infrastructure.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\FigAssessmentImpl.Infrastructure.pdb
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\ref\FigAssessmentImpl.Infrastructure.dll

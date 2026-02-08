@@ -1,0 +1,11 @@
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\bin\Debug\net8.0\FigAssessmentImpl.Domain.deps.json
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\bin\Debug\net8.0\FigAssessmentImpl.Domain.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\bin\Debug\net8.0\FigAssessmentImpl.Domain.pdb
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\obj\Debug\net8.0\FigAssessmentImpl.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\obj\Debug\net8.0\FigAssessmentImpl.Domain.AssemblyInfoInputs.cache
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\obj\Debug\net8.0\FigAssessmentImpl.Domain.AssemblyInfo.cs
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\obj\Debug\net8.0\FigAssessmentImpl.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\obj\Debug\net8.0\FigAssessmentImpl.Domain.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\obj\Debug\net8.0\refint\FigAssessmentImpl.Domain.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\obj\Debug\net8.0\FigAssessmentImpl.Domain.pdb
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Domain\obj\Debug\net8.0\ref\FigAssessmentImpl.Domain.dll
