@@ -1,14 +1,9 @@
 # **FIG Assessment Implementation**
 
-> This repoistory contains my code review and edits for the [FIG Code Review Assessment](https://github.com/andrewbarnettfig/FIG.CodeReview.Assessment2025).
+> This repository contains my edits for the [FIG Code Review Assessment](https://github.com/andrewbarnettfig/FIG.CodeReview.Assessment2025).
 > I have provided quick links below to easily navigate through the project!
 
 ---
-
-## **Code Reviews**
-- [Example 1 Code Review](./)
-- [Example 2 Code Review](./)
-- [Example 3 Code Review](./)
 
 ## **Server Side Code Edits**
 - ### **Controllers**
