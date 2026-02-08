@@ -34,8 +34,8 @@
       - [ProductRepository Interface](FigAssessmentImpl.Application/Products/IProductRepository.cs)
       - [ProductService Interface](./FigAssessmentImpl.Application/Products/IProductService.cs)
 - ### **Domain Models**
-   - [User](./FigAssessmentImpl.Domain/Users/User.cs)
-   - [Product](./FigAssessmentImpl.Domain/Products/Product.cs)
+   - [User Model](./FigAssessmentImpl.Domain/Users/User.cs)
+   - [Product Model](./FigAssessmentImpl.Domain/Products/Product.cs)
 - ### **Application Services**
    - [UserService Service](./FigAssessmentImpl.Application/Users/UserService.cs)
    - [Product Service](./FigAssessmentImpl.Application/Products/ProductService.cs)
