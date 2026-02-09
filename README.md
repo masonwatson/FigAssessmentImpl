@@ -24,8 +24,8 @@
       - Create Products
          - [CreateProductRequest Model](./FigAssessmentImpl.Application/Products/CreateProducts)
       - Get Products
-         - [GetProductQueryOptions Model](./FigAssessmentImpl.Application/Products/GetUsers/GetProductQueryOptions.cs)
-         - [GetProductResponse Model](./FigAssessmentImpl.Application/Products/GetUsers/GetProductResponse.cs)
+         - [GetProductQueryOptions Model](./FigAssessmentImpl.Application/Products/GetProducts/GetProductQueryOptions.cs)
+         - [GetProductResponse Model](./FigAssessmentImpl.Application/Products/GetProducts/GetProductResponse.cs)
       - [ProductRepository Interface](FigAssessmentImpl.Application/Products/IProductRepository.cs)
       - [ProductService Interface](./FigAssessmentImpl.Application/Products/IProductService.cs)
 - ### **Domain Models**
