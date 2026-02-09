@@ -12,7 +12,7 @@
 - ### **Application Models and Interfaces**
    - Users
       - Create Users
-         - [CreateUserRequest Model](./FigAssessmentImpl.Application/Users/CreateUsers)
+         - [CreateUserRequest Model](./FigAssessmentImpl.Application/Users/CreateUsers/CreateUserRequest.cs)
       - Get Users
          - [GetUserQueryOptions Model](./FigAssessmentImpl.Application/Users/GetUsers/GetUserQueryOptions.cs)
          - [GetUserResponse Model](./FigAssessmentImpl.Application/Users/GetUsers/GetUserResponse.cs)
