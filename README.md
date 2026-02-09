@@ -22,7 +22,7 @@
       - [UserService Interface](./FigAssessmentImpl.Application/Users/IUserService.cs)
    - Products
       - Create Products
-         - [CreateProductRequest Model](./FigAssessmentImpl.Application/Products/CreateProducts)
+         - [CreateProductRequest Model](./FigAssessmentImpl.Application/Products/CreateProducts/CreateProductRequest.cs)
       - Get Products
          - [GetProductQueryOptions Model](./FigAssessmentImpl.Application/Products/GetProducts/GetProductQueryOptions.cs)
          - [GetProductResponse Model](./FigAssessmentImpl.Application/Products/GetProducts/GetProductResponse.cs)
