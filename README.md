@@ -1,11 +1,11 @@
-# **FIG Assessment Implementation**
+# **FIG Assessment Example 1 and 2 Edits**
 
-> This repository contains my edits for the [FIG Code Review Assessment](https://github.com/andrewbarnettfig/FIG.CodeReview.Assessment2025).
+> This repository contains my edits for Example 1 and 2 of the [FIG Code Review Assessment](https://github.com/andrewbarnettfig/FIG.CodeReview.Assessment2025).
 > I have provided quick links below to easily navigate through the project!
 
 ---
 
-## **Server-side Code Edits**
+## **Server-side Code Edits (Example 1 and 2)**
 - ### **Controllers**
    - [User Controller](./FigAssessmentImpl.Api/Controllers/UserController.cs)
    - [Product Controller](./FigAssessmentImpl.Api/Controllers/ProductController.cs)
@@ -38,7 +38,7 @@
    - [User SQL Repository](./FigAssessmentImpl.Infrastructure/Repositories/SqlUserRepository.cs)
    - [Product SQL Repository](./FigAssessmentImpl.Infrastructure/Repositories/SqlProductRepository.cs)
 
-## **Client-side Code Edits**
+## **Client-side Code Edits (Example 3)**
 - ### **Component**
    - [User Profile Component TypeScript](https://github.com/masonwatson/FigAssessmentExample3/blob/master/Example3CodeEdits/user-profile.component.ts)
 - ### **Store**
