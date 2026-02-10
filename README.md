@@ -6,9 +6,9 @@
 ---
 
 ## **Code Reviews**
-- [Example 1 Code Review](./)
-- [Example 2 Code Review](./)
-- [Example 3 Code Review](./)
+- [Example 1 Code Review](https://github.com/masonwatson/FigAssessmentCodeReview/blob/master/FigAssessmentCodeReviews.CodeReviews/Example1CodeReview.cs)
+- [Example 2 Code Review](https://github.com/masonwatson/FigAssessmentCodeReview/blob/master/FigAssessmentCodeReviews.CodeReviews/Example2CodeReview%20.cs)
+- [Example 3 Code Review](https://github.com/masonwatson/FigAssessmentExample3/blob/master/Example3CodeReview/Example3CodeReview.ts)
 
 ## **Server Side Code Edits**
 - ### **Controllers**
@@ -29,8 +29,8 @@
       - Create Products
          - [CreateProductRequest Model](./FigAssessmentImpl.Application/Products/CreateProducts)
       - Get Products
-         - [GetProductQueryOptions Model](./FigAssessmentImpl.Application/Products/GetUsers/GetProductQueryOptions.cs)
-         - [GetProductResponse Model](./FigAssessmentImpl.Application/Products/GetUsers/GetProductResponse.cs)
+         - [GetProductQueryOptions Model](./FigAssessmentImpl.Application/Products/GetProducts/GetProductQueryOptions.cs)
+         - [GetProductResponse Model](./FigAssessmentImpl.Application/Products/GetProducts/GetProductResponse.cs)
       - [ProductRepository Interface](FigAssessmentImpl.Application/Products/IProductRepository.cs)
       - [ProductService Interface](./FigAssessmentImpl.Application/Products/IProductService.cs)
 - ### **Domain Models**
