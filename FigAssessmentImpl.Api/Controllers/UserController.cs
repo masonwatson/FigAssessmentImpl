@@ -75,13 +75,6 @@ namespace FigAssessmentImpl.Api.Controllers
         [HttpPost("validate")]
         public async Task<ActionResult<bool>> ValidateUserAsync([FromBody] ValidateUserRequest request, CancellationToken ct)
         {
-            // Validate required fields, min/max lengths, and ranges
-            if (string.IsNullOrWhiteSpace(request.Username))
-                return BadRequest("You must include a username");
-
-            if (string.IsNullOrWhiteSpace(request.Password)) 
-                return BadRequest("You must include a password");
-
             try
             {
                 var result = await _userService.ValidateUserAsync(request, ct);
@@ -109,29 +102,6 @@ namespace FigAssessmentImpl.Api.Controllers
         [HttpPost]
         public async Task<IActionResult> CreateUserAsync(CreateUserRequest request, CancellationToken ct)
         {
-            // Validate required fields, min/max lengths, and ranges
-            if (string.IsNullOrWhiteSpace(request.Username)) 
-                return BadRequest("You must include a username");
-
-            if (request.Username.Length <= 5)
-                return BadRequest("Username must be at least 5 characters");
-
-            if (request.Username.Length >= 18)
-                return BadRequest("Username must be at most 18 characters");
-
-            if (string.IsNullOrWhiteSpace(request.Email)) 
-                return BadRequest("You must include an Email");
-
-            // Imagine this is regex for validating that the email sent over is actually in the format of an email
-
-            if (string.IsNullOrWhiteSpace(request.Password)) 
-                return BadRequest("You must include a password");
-
-            if (request.Password.Length <= 8)
-                return BadRequest("Password must be at least 8 characters");
-
-            // Now imagine this is regex validation for special characters in the password
-
             try
             {
                 var result = await _userService.CreateUserAsync(request, ct);

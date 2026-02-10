@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FigAssessmentImpl.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1050b4e515f73eb70d7354bc39ff711ca0b565e6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18ace5aa71d848dfc2e27286c0b49667bb4cc6ec")]
 [assembly: System.Reflection.AssemblyProductAttribute("FigAssessmentImpl.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FigAssessmentImpl.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

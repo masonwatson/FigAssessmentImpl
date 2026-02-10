@@ -58,6 +58,13 @@ namespace FigAssessmentImpl.Application.Users
 
         public async Task<bool> ValidateUserAsync(ValidateUserRequest request, CancellationToken ct)
         {
+            // Validate required fields, min/max lengths, and ranges
+            if (string.IsNullOrWhiteSpace(request.Username))
+                throw new ArgumentException("You must include a username");
+
+            if (string.IsNullOrWhiteSpace(request.Password))
+                throw new ArgumentException("You must include a password");
+
             var isValid = await _userRepository.ValidateUserAsync(request, ct);
 
             return isValid;
@@ -65,6 +72,29 @@ namespace FigAssessmentImpl.Application.Users
 
         public async Task<GetUserResponse?> CreateUserAsync(CreateUserRequest request, CancellationToken ct)
         {
+            // Validate required fields, min/max lengths, and ranges
+            if (string.IsNullOrWhiteSpace(request.Username))
+                throw new ArgumentException("You must include a username");
+
+            if (request.Username.Length <= 5)
+                throw new ArgumentException("Username must be at least 5 characters");
+
+            if (request.Username.Length >= 18)
+                throw new ArgumentException("Username must be at most 18 characters");
+
+            if (string.IsNullOrWhiteSpace(request.Email))
+                throw new ArgumentException("You must include an Email");
+
+            // Imagine this is regex for validating that the email sent over is actually in the format of an email
+
+            if (string.IsNullOrWhiteSpace(request.Password))
+                throw new ArgumentException("You must include a password");
+
+            if (request.Password.Length <= 8)
+                throw new ArgumentException("Password must be at least 8 characters");
+
+            // Now imagine this is regex validation for special characters in the password
+
             var user = await _userRepository.InsertUserAsync(request, ct);
 
             return user != null ? new GetUserResponse
