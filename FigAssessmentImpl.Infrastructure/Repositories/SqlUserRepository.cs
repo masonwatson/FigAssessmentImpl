@@ -28,21 +28,12 @@ namespace FigAssessmentImpl.Infrastructure.Repositories
             var users = new List<User>();
             var whereSql = new StringBuilder("WHERE 1=1");
             var parameters = new List<SqlParameter>();
-            var commandBehavior = CommandBehavior.Default;
 
             await using var connection = new SqlConnection(_connectionString);
 
             await connection.OpenAsync(ct);
 
             // Filter handling
-            if (options.Id.HasValue && options.Id.Value > 0)
-            {
-                commandBehavior = CommandBehavior.SingleRow;
-
-                whereSql.Append(" AND Id = @Id");
-                parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = options.Id.Value });
-            }
-
             if (!string.IsNullOrWhiteSpace(options.Username))
             {
                 whereSql.Append(" AND Username = @Username");
@@ -71,7 +62,7 @@ namespace FigAssessmentImpl.Infrastructure.Repositories
             var query = $@"SELECT Id, Username, Email, Password, CreatedDate, IsActive, Role FROM Users {whereSql};";
             using var command = new SqlCommand(query, connection);
 
-            await using var reader = await command.ExecuteReaderAsync(commandBehavior, ct);
+            await using var reader = await command.ExecuteReaderAsync(CommandBehavior.Default, ct);
 
             var ordId = reader.GetOrdinal("Id");
             var ordUsername = reader.GetOrdinal("Username");
@@ -96,6 +87,35 @@ namespace FigAssessmentImpl.Infrastructure.Repositories
             }
 
             return users;
+        }
+
+        public async Task<User?> GetUserByIdAsync(int id, CancellationToken ct)
+        {
+            await using var connection = new SqlConnection(_connectionString);
+
+            await connection.OpenAsync(ct);
+
+            // Build query
+            var query = $@"SELECT Id, Username, Email, Password, CreatedDate, IsActive, Role FROM Users WHERE Id = @Id;";
+            using var command = new SqlCommand(query, connection);
+
+            command.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = id });
+
+            await using var reader = await command.ExecuteReaderAsync(CommandBehavior.SingleRow, ct);
+
+            if (!await reader.ReadAsync(ct))
+                return null;
+            
+            return new User
+            {
+                Id = reader.GetInt32(reader.GetOrdinal("Id")),
+                Username = reader.GetString(reader.GetOrdinal("Username")),
+                Email = reader.GetString(reader.GetOrdinal("Email")),
+                Password = reader.GetString(reader.GetOrdinal("Password")),
+                CreatedDate = reader.GetDateTime(reader.GetOrdinal("CreatedDate")),
+                IsActive = reader.GetBoolean(reader.GetOrdinal("IsActive")),
+                Role = reader.GetString(reader.GetOrdinal("Role")),
+            };
         }
 
         public async Task<bool> ValidateUserAsync(ValidateUserRequest request, CancellationToken ct)

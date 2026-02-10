@@ -33,6 +33,10 @@ namespace FigAssessmentImpl.Api.Controllers
                 var result = await _productService.GetProductsAsync(options, ct);
                 return Ok(result);
             }
+            catch (OperationCanceledException) when (ct.IsCancellationRequested)
+            {
+                return StatusCode(499, "Client canceled request");
+            }
             catch (ArgumentException ex)
             {
                 // Log with logger
@@ -80,6 +84,10 @@ namespace FigAssessmentImpl.Api.Controllers
             {
                 await _productService.CreateProductAsync(request, ct);
                 return Ok();
+            }
+            catch (OperationCanceledException) when (ct.IsCancellationRequested)
+            {
+                return StatusCode(499, "Client canceled request");
             }
             catch (ArgumentException ex)
             {

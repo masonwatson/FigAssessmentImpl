@@ -83,3 +83,4 @@ C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Api\obj\Debug\ne
 C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Api\obj\Debug\net8.0\FigAssessmentImpl.Api.pdb
 C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Api\obj\Debug\net8.0\FigAssessmentImpl.Api.genruntimeconfig.cache
 C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Api\obj\Debug\net8.0\ref\FigAssessmentImpl.Api.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Api\obj\Debug\net8.0\FigAssessmentImpl.Api.sourcelink.json

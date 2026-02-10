@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E26C161B-AE52-4A2C-97CF-0F0DBAC09955}|FigAssessmentImpl.Api\\FigAssessmentImpl.Api.csproj|c:\\users\\mason\\source\\repos\\figassessmentimpl\\figassessmentimpl.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E26C161B-AE52-4A2C-97CF-0F0DBAC09955}|FigAssessmentImpl.Api\\FigAssessmentImpl.Api.csproj|solutionrelative:figassessmentimpl.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E26C161B-AE52-4A2C-97CF-0F0DBAC09955}|FigAssessmentImpl.Api\\FigAssessmentImpl.Api.csproj|c:\\users\\mason\\source\\repos\\figassessmentimpl\\figassessmentimpl.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E26C161B-AE52-4A2C-97CF-0F0DBAC09955}|FigAssessmentImpl.Api\\FigAssessmentImpl.Api.csproj|solutionrelative:figassessmentimpl.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7A4700E3-E6D1-4E95-90C5-258A5A147721}|FigAssessmentImpl.Application\\FigAssessmentImpl.Application.csproj|c:\\users\\mason\\source\\repos\\figassessmentimpl\\figassessmentimpl.application\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A4700E3-E6D1-4E95-90C5-258A5A147721}|FigAssessmentImpl.Application\\FigAssessmentImpl.Application.csproj|solutionrelative:figassessmentimpl.application\\users\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7A4700E3-E6D1-4E95-90C5-258A5A147721}|FigAssessmentImpl.Application\\FigAssessmentImpl.Application.csproj|c:\\users\\mason\\source\\repos\\figassessmentimpl\\figassessmentimpl.application\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7A4700E3-E6D1-4E95-90C5-258A5A147721}|FigAssessmentImpl.Application\\FigAssessmentImpl.Application.csproj|solutionrelative:figassessmentimpl.application\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A4700E3-E6D1-4E95-90C5-258A5A147721}|FigAssessmentImpl.Application\\FigAssessmentImpl.Application.csproj|c:\\users\\mason\\source\\repos\\figassessmentimpl\\figassessmentimpl.application\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A4700E3-E6D1-4E95-90C5-258A5A147721}|FigAssessmentImpl.Application\\FigAssessmentImpl.Application.csproj|solutionrelative:figassessmentimpl.application\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C249363F-9D2B-415F-9764-A86E814D6683}|FigAssessmentImpl.Infrastructure\\FigAssessmentImpl.Infrastructure.csproj|c:\\users\\mason\\source\\repos\\figassessmentimpl\\figassessmentimpl.infrastructure\\repositories\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C249363F-9D2B-415F-9764-A86E814D6683}|FigAssessmentImpl.Infrastructure\\FigAssessmentImpl.Infrastructure.csproj|solutionrelative:figassessmentimpl.infrastructure\\repositories\\sqluserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Api\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "FigAssessmentImpl.Api\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Api\\Controllers\\UserController.cs",
+              "RelativeToolTip": "FigAssessmentImpl.Api\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T05:01:31.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Application\\Users\\IUserService.cs",
+              "RelativeDocumentMoniker": "FigAssessmentImpl.Application\\Users\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Application\\Users\\IUserService.cs",
+              "RelativeToolTip": "FigAssessmentImpl.Application\\Users\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-10T04:27:05.575Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -32,35 +66,35 @@
               "RelativeDocumentMoniker": "FigAssessmentImpl.Application\\Users\\UserService.cs",
               "ToolTip": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Application\\Users\\UserService.cs",
               "RelativeToolTip": "FigAssessmentImpl.Application\\Users\\UserService.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAWwBwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-08T07:05:58.927Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Api\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "FigAssessmentImpl.Api\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Api\\Controllers\\UserController.cs",
-              "RelativeToolTip": "FigAssessmentImpl.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Application\\Users\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "FigAssessmentImpl.Application\\Users\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Application\\Users\\IUserRepository.cs",
+              "RelativeToolTip": "FigAssessmentImpl.Application\\Users\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T05:01:31.701Z",
+              "WhenOpened": "2026-02-10T04:28:31.347Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Api\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "FigAssessmentImpl.Api\\Controllers\\ProductController.cs",
-              "ToolTip": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Api\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "FigAssessmentImpl.Api\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAowD8AAABgAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "SqlUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Infrastructure\\Repositories\\SqlUserRepository.cs",
+              "RelativeDocumentMoniker": "FigAssessmentImpl.Infrastructure\\Repositories\\SqlUserRepository.cs",
+              "ToolTip": "C:\\Users\\Mason\\source\\repos\\FigAssessmentImpl\\FigAssessmentImpl.Infrastructure\\Repositories\\SqlUserRepository.cs",
+              "RelativeToolTip": "FigAssessmentImpl.Infrastructure\\Repositories\\SqlUserRepository.cs",
+              "ViewState": "AgIAAJgAAAAAAAAAAAAIwLcAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-08T07:05:23.203Z",
+              "WhenOpened": "2026-02-10T04:28:40.993Z",
               "EditorCaption": ""
             }
           ]

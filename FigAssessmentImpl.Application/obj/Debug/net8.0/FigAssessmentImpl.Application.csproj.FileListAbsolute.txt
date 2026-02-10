@@ -13,3 +13,4 @@ C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\
 C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\refint\FigAssessmentImpl.Application.dll
 C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\FigAssessmentImpl.Application.pdb
 C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\ref\FigAssessmentImpl.Application.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Application\obj\Debug\net8.0\FigAssessmentImpl.Application.sourcelink.json

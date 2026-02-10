@@ -26,6 +26,37 @@ namespace FigAssessmentImpl.Api.Controllers
                 var result = await _userService.GetUsersAsync(options, ct);
                 return Ok(result);
             }
+            catch (OperationCanceledException) when (ct.IsCancellationRequested)
+            {
+                return StatusCode(499, "Client canceled request");
+            }
+            catch (ArgumentException ex)
+            {
+                // Log with logger
+
+                return BadRequest(ex.Message);
+            }
+            catch (Exception ex)
+            {
+                // Log with logger
+
+                return StatusCode(500);
+            }
+        }
+
+        // GET api/users
+        [HttpGet("{id}")]
+        public async Task<ActionResult<GetUserResponse>> GetUserByIdAsync([FromRoute] int id, CancellationToken ct)
+        {
+            try
+            {
+                var result = await _userService.GetUserByIdAsync(id, ct);
+                return Ok(result);
+            }
+            catch (OperationCanceledException) when (ct.IsCancellationRequested)
+            {
+                return StatusCode(499, "Client canceled request");
+            }
             catch (ArgumentException ex)
             {
                 // Log with logger
@@ -55,6 +86,10 @@ namespace FigAssessmentImpl.Api.Controllers
             {
                 var result = await _userService.ValidateUserAsync(request, ct);
                 return Ok(result);
+            }
+            catch (OperationCanceledException) when (ct.IsCancellationRequested)
+            {
+                return StatusCode(499, "Client canceled request");
             }
             catch (ArgumentException ex)
             {
@@ -101,6 +136,10 @@ namespace FigAssessmentImpl.Api.Controllers
             {
                 var result = await _userService.CreateUserAsync(request, ct);
                 return Ok(result);
+            }
+            catch (OperationCanceledException) when (ct.IsCancellationRequested)
+            {
+                return StatusCode(499, "Client canceled request");
             }
             catch (ArgumentException ex)
             {

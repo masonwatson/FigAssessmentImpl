@@ -13,6 +13,7 @@ namespace FigAssessmentImpl.Application.Users
     public interface IUserRepository
     {
         Task<IReadOnlyList<User>?> GetUsersAsync(GetUserQueryOptions options, CancellationToken ct);
+        Task<User?> GetUserByIdAsync(int id, CancellationToken ct);
         Task<bool> ValidateUserAsync(ValidateUserRequest request, CancellationToken ct);
         Task<User?> InsertUserAsync(CreateUserRequest request, CancellationToken ct);
     }

@@ -130,6 +130,32 @@
   },
   {
     "ContainingType": "FigAssessmentImpl.Api.Controllers.UserController",
+    "Method": "GetUserByIdAsync",
+    "RelativePath": "api/users/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "FigAssessmentImpl.Application.Users.GetUsers.GetUserResponse",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "FigAssessmentImpl.Api.Controllers.UserController",
     "Method": "ValidateUserAsync",
     "RelativePath": "api/users/validate",
     "HttpMethod": "POST",

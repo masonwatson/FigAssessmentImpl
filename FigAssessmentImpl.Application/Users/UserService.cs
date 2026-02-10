@@ -40,6 +40,22 @@ namespace FigAssessmentImpl.Application.Users
             }).ToList();
         }
 
+        public async Task<GetUserResponse?> GetUserByIdAsync(int id, CancellationToken ct)
+        {
+            var user = await _userRepository.GetUserByIdAsync(id, ct);
+
+            return user != null ? new GetUserResponse
+            {
+                Id = user.Id,
+                Username = user.Username,
+                Email = user.Email,
+                Password = user.Password,
+                CreatedDate = user.CreatedDate,
+                IsActive = user.IsActive,
+                Role = user.Role,
+            } : null;
+        }
+
         public async Task<bool> ValidateUserAsync(ValidateUserRequest request, CancellationToken ct)
         {
             var isValid = await _userRepository.ValidateUserAsync(request, ct);
@@ -47,11 +63,20 @@ namespace FigAssessmentImpl.Application.Users
             return isValid;
         }
 
-        public async Task<User?> CreateUserAsync(CreateUserRequest request, CancellationToken ct)
+        public async Task<GetUserResponse?> CreateUserAsync(CreateUserRequest request, CancellationToken ct)
         {
-            var result = await _userRepository.InsertUserAsync(request, ct);
+            var user = await _userRepository.InsertUserAsync(request, ct);
 
-            return result;
+            return user != null ? new GetUserResponse
+            {
+                Id = user.Id,
+                Username = user.Username,
+                Email = user.Email,
+                Password = user.Password,
+                CreatedDate = user.CreatedDate,
+                IsActive = user.IsActive,
+                Role = user.Role,
+            } : null;
         }
     }
 }

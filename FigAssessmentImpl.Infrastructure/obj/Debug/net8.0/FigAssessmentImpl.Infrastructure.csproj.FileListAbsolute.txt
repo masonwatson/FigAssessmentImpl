@@ -15,3 +15,4 @@ C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\o
 C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\refint\FigAssessmentImpl.Infrastructure.dll
 C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\FigAssessmentImpl.Infrastructure.pdb
 C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\ref\FigAssessmentImpl.Infrastructure.dll
+C:\Users\Mason\source\repos\FigAssessmentImpl\FigAssessmentImpl.Infrastructure\obj\Debug\net8.0\FigAssessmentImpl.Infrastructure.sourcelink.json
